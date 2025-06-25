@@ -1,0 +1,13 @@
+name: Cyn
+version: '1.0-SNAPSHOT'
+main: io.p2vman.cyn.Cyn
+api-version: '1.21'
+libraries:
+  - "cloud.commandframework:cloud-paper:1.8.3"
+  - 'com.google.inject:guice:5.0.1'
+  - 'javax.inject:javax.inject:1'
+  - 'com.google.guava:guava:31.1-jre'
+  - 'it.unimi.dsi:fastutil:8.5.12'
+
+commands:
+  wtp: {}
